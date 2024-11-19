@@ -1,0 +1,40 @@
+nlu:
+- intent: Make Update
+  examples: |
+    - Update [11.04](UbuntuVersion) to [12.04](UbuntuVersion) with LiveCD
+    - How to upgrade Ubuntu [9.10](UbuntuVersion) to [12.10](UbuntuVersion) via terminal?
+    - Upgrade to [12.04 64 bit](UbuntuVersion)
+    - How do I install drivers for a [Konica Minolta 200](Printer)?
+    - Are there any Keyboard Shortcuts to Shutdown?
+    - How can one shutdown a PC using the keyboard?
+    - What scientific plotting software is available?
+- intent: Setup Printer
+  examples: |
+    - How To Install [Canon LBP2900B](Printer) printer in [14.04 LTS](UbuntuVersion) ? I tried the method for LBP2900 but it didnt work
+    - How can I install a [Pantum 2502W](Printer) laser printer on Ubuntu
+    - How do I install drivers for the [Panasonic MB1900CX](Printer) All-in-One Printer/Scanner?
+    - Upgrade [12.04](UbuntuVersion) to [12.10](UbuntuVersion) using startup disk
+    - Is it worth upgrading from [12.04 LTS](UbuntuVersion) to [13.04](UbuntuVersion)
+    - How to setup HP printer/scanner on ubuntu?
+    - How can I enable shutdown verbosity?
+    - Is there a lightweight tool to crop images quickly?
+- intent: Shutdown Computer
+  examples: |
+    - shut down without extra question
+    - Shutdown after a certain time
+    - What graphical utility can I use for Ubuntu auto shutdown?
+    - how to upgrade from ubuntu [15.04](UbuntuVersion) to [15.10](UbuntuVersion)?
+    - How to install a [Brother MFC-5890CN](Printer) network printer?
+    - How can I automatically shutdown the system after a specific time?
+    - What to use to quickly cut Audio/Video
+    - Which programs can I use to edit PDF files?
+    - Extracting embedded images from a PDF
+- intent: Software Recommendation
+  examples: |
+    - What developer text editors are available for Ubuntu?
+    - What tools do you use to monitor a web server?
+    - [MySQL](SoftwareName) GUI Tools
+    - What screenshot tools are available?
+    - UPNP / DLNA (client) player recommendations?
+    - No matter what I do Ubuntu [15.04](UbuntuVersion) does not recognize [HP LaserJet 1020](Printer)
+    - What new games are available for Ubuntu in 2011?

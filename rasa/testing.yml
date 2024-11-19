@@ -1,0 +1,21 @@
+nlu:
+- intent: Make Update
+  examples: |
+    - How to upgrade from Ubuntu [10.10](UbuntuVersion) to [11.04](UbuntuVersion)?
+    - How to Upgrade from [11.10](UbuntuVersion) to [12.04](UbuntuVersion) when you've got a problem?
+- intent: Setup Printer
+  examples: |
+    - How to setup wireless printing from a printer connected via usb on Ubuntu Server [12.10](UbuntuVersion)?
+    - Install [Canon MP560](Printer) Ubuntu [15.04](UbuntuVersion)
+- intent: Shutdown Computer
+  examples: |
+    - How to shutdown the computer after Xsession ends?
+    - How do I fix a shutdown problem?
+    - How to shutdown computer when users are logged on?
+    - Hotkey to shut down from login screen?
+- intent: Software Recommendation
+  examples: |
+    - Can you recommend a password generator?
+    - Any command line calculator for Ubuntu?
+    - What [IRC](SoftwareName) clients are available?
+    - What is a good [MongoDB](SoftwareName) GUI client?

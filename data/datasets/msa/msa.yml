@@ -1,0 +1,101 @@
+version: "3.1"
+nlu:
+- intent: service_health
+  examples: |
+    - I want to know the health data for.
+    - the health data
+    - health data
+    - please give me health data.
+    - give me the health data
+    - give me something about the health data.
+    - give me health data please.
+    - health information
+    - tell me if my server's health.
+    - I want to know the health data for my server.
+- intent: service_info
+  examples: |
+    - Please give me the [GroceryInventory](service)'s info.
+    - the service's info for [GroceryInventory](service)
+    - service's info for [GroceryInventory](service)
+    - information for [GroceryInventory](service)
+    - give me the [GroceryInventory](service)'s information.
+    - give me the [GroceryInventory](service)'s info please.
+    - [GroceryInventory](service) info please.
+    - give me the info for [GroceryInventory](service).
+    - detail about [GroceryInventory](service)
+    - service detail
+    - service information
+    - service info
+- intent: service_using_info
+  examples: |
+    - What's the [GroceryInventory](service)'s using overview?
+    - [GroceryInventory](service) using amount information
+    - using amount for [GroceryInventory](service)
+    - using information for [GroceryInventory](service)
+    - [GroceryInventory](service)'s amount overview
+    - I want to know the amount overview for [GroceryInventory](service)
+    - I want to know the using information for [GroceryInventory](service)
+    - give me the amount overview for [GroceryInventory](service) please.
+    - give me the using information for [GroceryInventory](service) please.
+    - please give me the amount overview for [GroceryInventory](service).
+    - please give me the using information for [GroceryInventory](service).
+    - using amount
+    - using info
+    - using information
+- intent: service_api_list
+  examples: |
+    - Please give me the API list for [GroceryInventory](service).
+    - the service's API list for [GroceryInventory](service)
+    - service's API list for [GroceryInventory](service)
+    - the API list for [GroceryInventory](service)
+    - give me the [GroceryInventory](service)'s the API list.
+    - give me the [GroceryInventory](service)'s the api list.
+    - [GroceryInventory](service) API list please.
+    - give me the API list for [GroceryInventory](service).
+    - the API list about [GroceryInventory](service)
+    - API list
+    - api
+- intent: service_only
+  examples: |
+    - [GroceryInventory](service)
+    - about [GroceryInventory](service)
+    - for [GroceryInventory](service)
+    - [CinemaCatalog](service)
+    - about [CinemaCatalog](service)
+    - for [CinemaCatalog](service)
+    - [Notification](service)
+    - about [Notification](service)
+    - for [Notification](service)
+    - [Ordering](service)
+    - about [Ordering](service)
+    - for [Ordering](service)
+- intent: last_build_fail
+  examples: |
+    - What's the reason my building failed for [GroceryInventory](service)?
+    - Tell me the last building fail's trace for [GroceryInventory](service).
+    - building fail reason for [GroceryInventory](service)
+    - Why the [GroceryInventory](service) failed?
+    - What's the reason my building failed for [CinemaCatalog](service)?
+    - what's the building data for [CinemaCatalog](service)?
+- intent: service_env
+  examples: |
+    - Please give me the env data.
+    - env
+    - environment setting
+    - Tell me the env setting info.
+    - the environment setting info
+    - Tell me the environment setting.
+    - tell me all about the server.
+    - tell me the server's environment setting.
+- intent: service_dependency_graph
+  examples: |
+    - give me the dependency graph.
+    - What's the dependency graph?
+    - how the dependency between our services?
+    - give me the dependency graph.
+    - tell me the dependency between services.
+    - dependency graph
+    - services' dependency status
+    - dependency status
+    - dependency overview
+    - give me the dependency overview

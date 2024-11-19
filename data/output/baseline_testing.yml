@@ -1,0 +1,109 @@
+nlu:
+- intent: BuggyCommitsByDate
+  examples: |
+    - In the [@sys.date-time](@sys.date-time) which was the bug introducing commits that were done',
+    - In the [@sys.date-time](@sys.date-time) what is the bug introducing commits which happened',
+    - In the [@sys.date-time](@sys.date-time) what was the bug introducing commit that were done',
+    - print the defect inducing Commits [@sys.date-time](@sys.date-time) ',
+    - In the [@sys.date-time](@sys.date-time) highlight the bug introducing Commits which happened',
+    - In the [@sys.date-time](@sys.date-time) highlight the bug introducing Commits were that applied',
+    - In the [@sys.date-time](@sys.date-time) which was the bug introducing commits that were done',
+    - In the [@sys.date-time](@sys.date-time) what were the bug introducing commits which were applied',
+    - In the [@sys.date-time](@sys.date-time) what was the bug introducing commit that were pushed',
+    - In the [@sys.date-time](@sys.date-time) give me the bug introducing Commits which pushed',
+    - fetch me a list of the Buggy Commits [@sys.date-time](@sys.date-time) ',
+    - which are the Buggy Commits that done [@sys.date-time](@sys.date-time) ',
+    - In the [@sys.date-time](@sys.date-time) show me the buggy changes that occurred',
+    - In the [@sys.date-time](@sys.date-time) fetch me the defect introducing changes which were done',
+- intent: BugsCountsPerStatus
+  examples: |
+    - Show me the bugs summary',
+    - What is the bugs report?',
+    - What is the defects analysis?',
+    - Give me the defects summary',
+- intent: FixingCommitsForBugTicket
+  examples: |
+    - Which commits removed the issue [@JIRATickets](@JIRATickets) ',
+    - Which commits addressed the ticket [@JIRATickets](@JIRATickets) ',
+    - Highlight the commits that solved the bug ticket [@JIRATickets](@JIRATickets) ',
+    - What commits solved the bug ticket [@JIRATickets](@JIRATickets) ',
+    - Give me the commits solved the bug ticket [@JIRATickets](@JIRATickets) ',
+    - Highlight the commits that resolved [@JIRATickets](@JIRATickets) ',
+    - Give me the commits removed the problem [@JIRATickets](@JIRATickets) ',
+- intent: FixingCommitsIntroducedBugs
+  examples: |
+    - In the [@sys.date-time](@sys.date-time) which is the amount of  defects fixing changes that were generated issues',
+    - In the [@sys.date-time](@sys.date-time) how many fixes did break something else?
+    - In the [@sys.date-time](@sys.date-time) what is the percentage share of defects removing commits that were bugs',
+    - In the [@sys.date-time](@sys.date-time) what is the percentage of bugs fixing commits that were introduced issues',
+    - In the [@sys.date-time](@sys.date-time) which is the amount of problems removing changes which were added bugs',
+    - In the [@sys.date-time](@sys.date-time) which is the share of issues resolving commits which were added defects',
+    - Which is the share of defect removing commits which generated in the [@sys.date-time](@sys.date-time) ',
+- intent: GetClassAuthorName
+  examples: |
+    - Who is responsible for creating [ClassesNames](ClassesNames)',
+- intent: GetCommitBodyByDatePeriod
+  examples: |
+    - Show me the commit body between [@sys.date-time](@sys.date-time):date',
+    - List me the commits of [@sys.date-time](@sys.date-time):date',
+- intent: GetCommitsInfoAboutSpecificClass
+  examples: |
+    - Show me the changes of [{class}]({class})',
+    - Give me the changes of [{class}]({class})',
+- intent: GetDevelopersWhoHasExperianceToFixBug
+  examples: |
+    - Who fixed more bugs related to [ClassesNames](ClassesNames)',
+    - Top bug fixing developer related with [ClassesNames](ClassesNames)',
+    - Developer who fixed more bugs in [ClassesNames](ClassesNames)',
+    - Who is the top bug fixer in [ClassesNames](ClassesNames)',
+- intent: GetDevelopersWhoMadeClassChanges
+  examples: |
+    - Who added to [ClassesNames](ClassesNames)',
+    - Who contributed to [ClassesNames](ClassesNames)',
+    - Who committed in [ClassesNames](ClassesNames)',
+- intent: GetLatestCommitInfoOfSpecificClass
+  examples: |
+    - Fetch the last commits of [ClassesNames](ClassesNames)',
+    - List the recent history of [ClassesNames](ClassesNames)',
+- intent: GetNumberOfCommitByDate
+  examples: |
+    - How many commits between [@sys.date-time](@sys.date-time):date',
+    - What is the amount of commits between [@sys.date-time](@sys.date-time)',
+    - Fetch me the number of commits in [@sys.date-time](@sys.date-time)',
+- intent: IntroducedBugsByCommit
+  examples: |
+    - fetch me the problems that were generated because of change [@CommitHash](@CommitHash)',
+    - List me the issue created due to [@CommitHash](@CommitHash)',
+    - Fetch me a list of the problem generated because of change [@CommitHash](@CommitHash)',
+    - highlight the defect that were created because of [@CommitHash](@CommitHash)',
+    - highlight the bug generated by change [@CommitHash](@CommitHash)',
+    - List me the bugs induced by change [@CommitHash](@CommitHash)',
+    - show me the defect induced by change [@CommitHash](@CommitHash)',
+    - give me the bug added because of change [@CommitHash](@CommitHash)',
+    - highlight a list of the problem were added because of commit [@CommitHash](@CommitHash)',
+    - Which were the problem that were introduced by [@CommitHash](@CommitHash)',
+    - print the bug that was created because of commit [@CommitHash](@CommitHash)',
+- intent: MostDeveloperHasOpenedBugs
+  examples: |
+    - Who has the most bugs to fix?',
+    - Which developers have more bugs to fix?',
+    - Who has the most bugs to address?',
+    - Which developers have more bugs assigned to them?',
+- intent: MostFileContainsBugs
+  examples: |
+    - show me the files which are the ones that have been introducing the most bugs',
+    - Which files are the ones that were introducing most of the bugs',
+    - show me the files which are the ones have added bugs the most',
+    - give me the files which are the ones that have been introducing most of the bugs
+    - show me the files which have introduced more bugs',
+    - What files introduced more bugs?',
+    - give me the files which are the top bug-introducing',
+    - What files introduced the most bugs?',
+- intent: MostOccuranceBug
+  examples: |
+    - Show me the most occurrent issue',
+    - Show me the most popular bug',
+    - Show me the most recurrent bug',
+    - Show me the most popular defect',
+    - What is the most popular bug?',
+    - Which is the most common bug?',

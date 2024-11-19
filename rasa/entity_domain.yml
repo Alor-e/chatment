@@ -1,0 +1,24 @@
+actions: []
+entities:
+- '@JIRATickets'
+- '@CommitHash'
+- ClassesNames
+- '@sys.date-time'
+- '{class}'
+intents:
+- BuggyCommitsByDate
+- BugsCountsPerStatus
+- FixingCommitsForBugTicket
+- FixingCommitsIntroducedBugs
+- GetClassAuthorName
+- GetCommitBodyByDatePeriod
+- GetCommitsInfoAboutSpecificClass
+- GetDevelopersWhoHasExperianceToFixBug
+- GetDevelopersWhoMadeClassChanges
+- GetLatestCommitInfoOfSpecificClass
+- GetNumberOfCommitByDate
+- IntroducedBugsByCommit
+- MostDeveloperHasOpenedBugs
+- MostFileContainsBugs
+- MostOccuranceBug
+responses: {}
